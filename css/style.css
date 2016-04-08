@@ -6,23 +6,23 @@ body {
 	background-color: #666699;
 }
 
-header {
+/*header {
 	background-image: url("images/navbar.jpg");
-}
+}*/
 
 /*.namePlate {
 	font: 20px;
 }*/
 
-.menuBar {
+#menuBar {
 	list-style: none;
 }
 
-/*#menuBar>li {
+#menuBar>li {
 	float: left;
 }
 
-#menuBar li a{
+#menuBar li a {
 	display: block;
 	height: 40px;
 	width: 30px;
@@ -38,4 +38,4 @@ header {
 #menuBar li a:hover{
 	background-color: white;
 	color: #fff;
-}*/
+}
