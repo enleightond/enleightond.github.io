@@ -2,22 +2,15 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: arial;
-	font-size: 20px;
 	/*background-color: #666699;*/
 }
-
 /*header {
 	background-image: url("images/navbar.jpg");
-}*/
-
-/*.namePlate {
-	font: 20px;
 }*/
 nav {
 	float: left;
 	width: 100%;
 	background-color: #666699;
-	height: 85px;
 }
 
 #menuBar {
@@ -28,13 +21,12 @@ nav {
 	float: left;
 }
 
-#menuBar li a {
+button {
 	display: block;
-	height: 55px;
-	width: 50px;
-	padding:5px;
-	margin-top: 40px;
-	text-decoration: none;
+	height: 137px;
+	width: 95px;
+	padding-right:5px;
+	color: #666699;
 }
 
 #menuBar>li>a {
@@ -43,12 +35,7 @@ nav {
 
 #menuBar li a:hover{
 	background-color: white;
-	color: #666699;
-}
-#menuBar li button{
-	float: right;
-	right: 0px;
-	border: 2px solid black;
+	color: white;
 }
 
 img {
@@ -60,22 +47,23 @@ img {
 }
 
 .jobTitle {
-	float: left;
-	margin-left: 20px;
-	width: 400px;
+	padding-top: 40px;
+	font-size: 60px;
+	font-style: italic;
 }
 
 .bio {
 	float: left;
-	margin-left: 20px;
 	width: 400px;
+	margin-top: 70px;
 }
 
 .vLine {
 	float: left;
 	border-left: 3px solid #ff0000;
-	height: 400px;
+	height: 350px;
 	margin: 15px;
+	margin-top: 90px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 
@@ -83,7 +71,9 @@ img {
 
 .socialButtons {
 	float: left;
-	margin-left: 10px;
+	width: 400px;
+	margin-top: 70px;
+	margin-left: 35px;
 }
 
 
