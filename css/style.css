@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	font-family: arial;
 	font-size: 20px;
-	background-color: #666699;
+	/*background-color: #666699;*/
 }
 
 /*header {
@@ -13,6 +13,12 @@ body {
 /*.namePlate {
 	font: 20px;
 }*/
+nav {
+	float: left;
+	width: 100%;
+	background-color: #666699;
+	height: 85px;
+}
 
 #menuBar {
 	list-style: none;
@@ -24,18 +30,65 @@ body {
 
 #menuBar li a {
 	display: block;
-	height: 40px;
-	width: 30px;
-	padding:10px;
+	height: 55px;
+	width: 50px;
+	padding:5px;
+	margin-top: 40px;
 	text-decoration: none;
 }
 
 #menuBar>li>a {
-	background-color: #666699;
-	color: #000;
+	color: black;
 }
 
 #menuBar li a:hover{
 	background-color: white;
-	color: #fff;
+	color: #666699;
 }
+#menuBar li button{
+	float: right;
+	right: 0px;
+	border: 2px solid black;
+}
+
+img {
+	float: left;
+	height: 436px; 
+	width: 317px;
+	margin: 70px;
+	border: 2px solid black;
+}
+
+.jobTitle {
+	float: left;
+	margin-left: 20px;
+	width: 400px;
+}
+
+.bio {
+	float: left;
+	margin-left: 20px;
+	width: 400px;
+}
+
+.vLine {
+	float: left;
+	border-left: 3px solid #ff0000;
+	height: 400px;
+	margin: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
+.socialButtons {
+	float: left;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
