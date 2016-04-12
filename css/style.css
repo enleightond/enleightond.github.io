@@ -21,6 +21,11 @@ nav {
 	float: left;
 }
 
+element.style {
+    width: 1513px;
+    height: 153px;
+}
+
 button {
 	display: block;
 	height: 137px;
@@ -43,11 +48,13 @@ img {
 	height: 436px; 
 	width: 317px;
 	margin: 70px;
+	margin-left: 15%;
+	margin-right: 35px;
 	border: 2px solid black;
 }
 
 .jobTitle {
-	padding-top: 40px;
+	
 	font-size: 60px;
 	font-style: italic;
 }
@@ -55,27 +62,29 @@ img {
 .bio {
 	float: left;
 	width: 400px;
-	margin-top: 70px;
+	font-size: 20px;
 }
 
 .vLine {
 	float: left;
-	border-left: 3px solid #ff0000;
-	height: 350px;
-	margin: 15px;
-	margin-top: 90px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-
+    border-left: 3px solid #ff0000;
+    height: 380px;
+	margin-top: 38px;
+	margin-left: 30px;
 }
 
-.socialButtons {
+.socialBio {
 	float: left;
 	width: 400px;
-	margin-top: 70px;
-	margin-left: 35px;
+	margin-left: 30px;
+	font-size: 20px;
 }
 
+#socialLinks{
+	list-style: none;
+	
+
+}
 
 
 
