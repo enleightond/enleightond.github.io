@@ -43,7 +43,7 @@ button {
 	color: white;
 }
 
-img {
+.portrait {
 	float: left;
 	height: 436px; 
 	width: 317px;
@@ -67,7 +67,7 @@ img {
 
 .vLine {
 	float: left;
-    border-left: 3px solid #ff0000;
+    border-left: 3px solid #888888;
     height: 380px;
 	margin-top: 38px;
 	margin-left: 30px;
@@ -78,14 +78,21 @@ img {
 	width: 400px;
 	margin-left: 30px;
 	font-size: 20px;
+	margin-right: 20%;
 }
 
-#socialLinks{
+#socLinks{
 	list-style: none;
-	
-
+	overflow: hidden;
+	height: 235px;
 }
 
+.socButtons{
+	height: 50px;
+	width: 152px;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 10px;
+}
 
 
 
