@@ -1,58 +1,58 @@
 html {	
 	margin: 10px;
 	font-family: arial;
-	/*background-color: #666699;*/
-}
-/*header {
-	background-image: url("images/navbar.jpg");
-}*/
-nav {
-	float: left;
+	height: 666px;
 	width: 100%;
-	background-color: #fff;
-	overflow: hidden;
 }
 
-#menuName {
-	margin-left: 20%;
-	font-size: 42px;
+nav {
+	width: 99%;
+	background-color: #000;
 	overflow: hidden;
+	height: 137px;
 }
 
-#menuBar {
-	display: block;
-	float: right;
+#menuBar {	
 	list-style: none;
-	margin-top: 0px;
-	margin-right: 20%;
+	margin: 0px;	
 }
 
-#menuBar>li {
+.name {
 	float: left;
-	box-shadow: 3px 3px 1px #888;
-}
-#menuBar>li>a {
-	color: black;
+	font-size: 42px;
+	margin-left: 20%;
 }
 
-#menuBar li a:hover{
-	background-color: white;
-	color: white;
+.name:hover {
+	font-style: italic;
+}
+
+.links{
+	margin-right: 22%;
+}
+
+#menuBar li {
+	display: inline;
+	float: right;
+	height: 137px;
+	width: 95px;
+	list-style: none;
+}
+
+button {
+	width: 95px;
+}
+
+button:hover {	
+	height: 137px;
+	width: 95px;
+	background-color: #000;
 }
 
 element.style {
     width: 1513px;
-    height: 153px;
+    height: 137px;
 }
-
-button {
-	display: block;
-	height: 137px;
-	width: 95px;
-	padding-right:5px;
-	color: #666699;
-}
-
 
 .portrait {
 	float: left;
@@ -66,12 +66,11 @@ button {
 	box-shadow: 3px 3px 1px #888888;
 }
 
-.jobTitle {
-	
+.jobTitle {	
+	width:99%;
 	font-size: 60px;
 	font-style: italic;
 	box-shadow: 0px 3px 0px #888888;
-
 }
 
 .bio {
@@ -93,8 +92,9 @@ button {
 	float: left;
 	width: 400px;
 	margin-left: 30px;
+	margin-bottom: 0px;
 	font-size: 20px;
-	margin-right: 20%;
+	clear: right;
 }
 
 #socLinks{
@@ -102,6 +102,7 @@ button {
 	overflow: hidden;
 	height: 235px;
 	padding-left: 7%;
+	margin-top: 190px;
 }
 
 .socButtons{
@@ -109,6 +110,11 @@ button {
 	width: 152px;
 	box-shadow: 10px 10px 5px #888888;
 	padding: 10px;
+}
+
+.socButtons:hover {
+	height: 53px;
+	width: 162px;
 }
 
 
