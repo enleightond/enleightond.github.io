@@ -28,12 +28,13 @@ nav {
 }
 
 .links{
-	margin-right: 22%;
+	margin-right: 25%;
+	float: right;
 }
 
 #menuBar li {
 	display: inline;
-	float: right;
+	float: left;
 	height: 137px;
 	width: 95px;
 	list-style: none;
