@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="portfolio">
 <head>
 	<meta charset="UTF-8">
 	<title>Portfolio for David Leighton</title>
-		<!-- Technologies -->
+	<!-- Technologies -->
   	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular-route.js"></script>
-  	<script type="text/javascript" src="js/directives.js"></script>
+  	<!-- Javascript -->
   	<script type="text/javascript" src="js/app.js"></script>
   	<script type="text/javascript" src="js/controllers.js"></script>
     <!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 <body>
+	<!-- Nav Bar -->
 	<section>
 		<header>
-		  	<!-- <a href="#" id="namePlate"></a> -->
 			<nav>
 				<div>
 					<ul id="menuBar">
@@ -31,27 +32,8 @@
 			</nav>
 		</header>
 	</section>
-	<div> 
-		<img class="portrait" src="images/meBnW.jpg">
-			<div>
-				<div class="jobTitle">
-					Web Developer				
-				</div>
-				<p class="bio">Hello There!<br><br>My name's David, and I'm a web developer, based out of the San Francisco Bay Area. I'm super passionate about web and internet applications, and believe in using these skills to create better functionality and user experience. With over 15 years in the technology industry I'm no stranger to shifting trends and technologies. I enjoy learning and developing new technical skills and forging new relationships. I'm looking to offer my skills and join a team as a Web Developer.</p>
-			</div>
-			<div class="vLine"></div>
-			<div>
-				<p class="socialBio"><br><br>Please feel free to check out my work and view my resume. I'm currently available for hire. If you sense I'd be a valuable assest on your next project, or part of a team, don't hesitate to contact me!</p>	
-			</div>
-			<div>
-				<ul id="socLinks">
-					<li><a href="https://www.linkedin.com/in/enleightond"><img class="socButtons" src="images/linkedin.png"></a></li>
-					<li><a href="https://github.com/enleightond"><img class="socButtons" src="images/github.png"></a></li>
-					<li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new"><img class="socButtons" src="images/Gmail.jpg"></a></li>
-					<!-- <li><a href="#"><img class="socButtons" src="images/mail.png"></a></li> -->
-				</ul>
-			</div>
-	</div>
-	
+	<!-- Angular -->
+	<div ng-view></div>
+
 </body>
 </html>
