@@ -1,4 +1,4 @@
-var app = angular.module('portfolio', ['ngRoute']);
+var app = angular.module('myPortfolio', ['ngRoute']);
 
 app.config('$routeProvider', function($routeProvider){
 	$routeProvider
