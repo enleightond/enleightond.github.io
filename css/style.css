@@ -21,6 +21,7 @@ nav {
 	float: left;
 	font-size: 42px;
 	margin-left: 20%;
+	padding-right: 50px;
 }
 
 .name:hover {
@@ -28,8 +29,7 @@ nav {
 }
 
 .links{
-	margin-right: 25%;
-	float: right;
+	margin-right: 20%;
 }
 
 #menuBar li {
@@ -60,7 +60,7 @@ element.style {
 	height: 436px; 
 	width: 317px;
 	margin: 70px;
-	margin-left: 15%;
+	margin-left: 10%;
 	margin-right: 35px;
 	margin-top:10px;
 	border: 2px solid black;
@@ -119,7 +119,7 @@ element.style {
 }
 
 .copyright {
-	text-align: center;
+	margin-left: 45%;
 }
 
 

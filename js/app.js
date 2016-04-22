@@ -1,8 +1,8 @@
 var app = angular.module('myPortfolio', ['ngRoute']);
 
-app.config('$routeProvider', function($routeProvider){
+app.config(function($routeProvider){
 	$routeProvider
-		.when('/', {
+		.when("/", {
 			templateUrl:"./views/home.html",
 			controller: "SiteCtrl"
 		}).when ('/portfolio', {
