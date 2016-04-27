@@ -15,6 +15,7 @@ nav {
 	background-size: cover;
 	overflow: hidden;
 	height: 137px;
+	border-radius: 8px;
 }
 
 #menuBar {	
@@ -49,6 +50,7 @@ nav {
 
 button {
 	width: 95px;
+	border-radius: 10px;
     color: darkolivegreen;
     background-color: black;
 }
@@ -57,7 +59,7 @@ button:hover {
 	height: 137px;
 	width: 95px;
 	background: url(../images/navbar.jpg);
-	color: #fff;
+	color: orangered;
 }
 
 element.style {
@@ -75,6 +77,7 @@ element.style {
 	margin-top:10px;
 	border: 2px solid black;
 	box-shadow: 3px 3px 1px #888888;
+	border-radius: 8px;
 }
 
 .jobTitle {	
@@ -121,6 +124,7 @@ element.style {
 	width: 152px;
 	box-shadow: 10px 10px 5px #888888;
 	padding: 10px;
+	border-radius: 8px;
 }
 
 .socButtons:hover {
