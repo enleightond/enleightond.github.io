@@ -4,10 +4,15 @@ html {
 	height: 666px;
 	width: 100%;
 }
+ 
+body {
+	background:antiquewhite;
+}
 
 nav {
 	width: 99%;
-	background-color: #000;
+	background: url(../images/navbar.jpg);
+	background-size: cover;
 	overflow: hidden;
 	height: 137px;
 }
@@ -22,10 +27,12 @@ nav {
 	font-size: 42px;
 	margin-left: 20%;
 	padding-right: 50px;
+	color:darkolivegreen;
 }
 
 .name:hover {
 	font-style: italic;
+	color: orangered;
 }
 
 .links{
@@ -42,12 +49,14 @@ nav {
 
 button {
 	width: 95px;
+    color: darkolivegreen;
+    background-color: black;
 }
 
 button:hover {	
 	height: 137px;
 	width: 95px;
-	background-color: #000;
+	background: url(../images/navbar.jpg);
 	color: #fff;
 }
 
