@@ -6,8 +6,10 @@ html {
 }
  
 body {
-	background:antiquewhite;
-}
+	background: -moz-radial-gradient(center, ellipse cover, rgba(247,245,178,0) 0%, rgba(244,235,195,0.27) 27%, rgba(188,191,153,0.64) 64%, rgba(170,167,153,1) 100%);
+	background: -webkit-radial-gradient(center, ellipse cover, rgba(247,245,178,0) 0%,rgba(244,235,195,0.27) 27%,rgba(188,191,153,0.64) 64%,rgba(170,167,153,1) 100%);
+	background: radial-gradient(ellipse at center, rgba(247,245,178,0) 0%,rgba(244,235,195,0.27) 27%,rgba(188,191,153,0.64) 64%,rgba(170,167,153,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f5b2', endColorstr='#aaa799',GradientType=1 );}
 
 nav {
 	width: 99%;
