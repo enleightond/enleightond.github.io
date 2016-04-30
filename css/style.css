@@ -29,8 +29,9 @@ nav {
 	margin-left: 20%;
 	padding-right: 50px;
 	color:darkolivegreen;
+	transition: 500ms ease-in-out;
+	
 }
-
 .name:hover {
 	font-style: italic;
 	color: orangered;
@@ -46,6 +47,8 @@ nav {
 	height: 137px;
 	width: 95px;
 	list-style: none;
+	transition: 750ms ease-in-out;
+	-webkit-transition: 750ms ease-in-out;	
 }
 
 button {
@@ -53,6 +56,9 @@ button {
 	border-radius: 10px;
     color: darkolivegreen;
     background-color: black;
+    transition: all 750ms ease-in-out;
+    -webkit-transition: all 750ms ease-in-out;
+
 }
 
 button:hover {	
@@ -60,6 +66,7 @@ button:hover {
 	width: 95px;
 	background: url(../images/navbar.jpg);
 	color: orangered;
+	transition: 500ms ease-in-out;
 }
 
 element.style {
@@ -84,7 +91,8 @@ element.style {
 	width:99%;
 	font-size: 60px;
 	font-style: italic;
-	box-shadow: 0px 3px 0px #888888;
+	text-shadow: 5px 2px 1px #888;
+	box-shadow: 0px 3px 0px #888;
 }
 
 .bio {
@@ -115,22 +123,24 @@ element.style {
 	list-style: none;
 	overflow: hidden;
 	height: 235px;
-	padding-left: 7%;
+	padding-left: 8%;
 	margin-top: 190px;
 }
 
 .socButtons{
-	height: 50px;
-	width: 152px;
+	height: 40px;
+	width: 122px;
 	box-shadow: 10px 10px 5px #888888;
 	padding: 10px;
-	border-radius: 8px;
+	border-radius: 18px;
 	background: #fff;
+	transition: 350ms ease-in;
 }
 
 .socButtons:hover {
-	height: 53px;
-	width: 162px;
+	height: 48px;
+	width: 142px;
+	transition: 350ms ease-out;
 }
 
 
