@@ -148,6 +148,14 @@ element.style {
 	transition: 350ms ease-out;
 }
 
+.projectLayout {
+	display: inline-block;
+	text-align: center;
+	box-shadow: 10px 10px 5px #888888;
+	margin-left: 4%;
+
+}
+
 
 
 
