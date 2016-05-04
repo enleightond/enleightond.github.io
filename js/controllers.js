@@ -6,7 +6,7 @@ app.controller("ProjectCtrl", function($scope, $location){
 
 	$scope.projects = [{
 		projectName:"portfolioSite",
-		projectImg: "http://placekitten.com/300/400",
+		projectImg: "../images/portfolioPic.png",
 		projectLink: "https://github.com/enleightond/enleightond.github.io"
 	},
 	{

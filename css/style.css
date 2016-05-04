@@ -33,11 +33,9 @@ nav {
 	font-size: 42px;
 	margin-left: 20%;
 	padding-right: 50px;
-	color:lightgreen;
-	transition: opacity 500ms top 1s ease;
-	opacity: 1;
-	
+	color:lightgreen;	
 }
+
 .name:hover {
 	font-style: italic;
 	color: orangered;
@@ -154,7 +152,11 @@ element.style {
 	text-align: center;
 	box-shadow: 10px 10px 5px #888888;
 	margin-left: 4%;
+}
 
+.projectImg {
+	width: 300px;
+	height: 400px;
 }
 
 
