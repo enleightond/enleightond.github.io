@@ -3,14 +3,15 @@ html {
 	font-family: arial;
 	height: 666px;
 	width: 100%;
+	background-repeat: no-repeat;
 }
  
 body {
-	/*background: -moz-radial-gradient(center, ellipse cover, rgba(247,245,178,0) 0%, rgba(244,235,195,0.27) 27%, rgba(188,191,153,0.64) 64%, rgba(170,167,153,1) 100%);
+	background: -moz-radial-gradient(center, ellipse cover, rgba(247,245,178,0) 0%, rgba(244,235,195,0.27) 27%, rgba(188,191,153,0.64) 64%, rgba(170,167,153,1) 100%);
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(247,245,178,0) 0%,rgba(244,235,195,0.27) 27%,rgba(188,191,153,0.64) 64%,rgba(170,167,153,1) 100%);
 	background: radial-gradient(ellipse at center, rgba(247,245,178,0) 0%,rgba(244,235,195,0.27) 27%,rgba(188,191,153,0.64) 64%,rgba(170,167,153,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f5b2', endColorstr='#aaa799',GradientType=1 );
-*/}
+}
 
 nav {
 	width: 99%;
@@ -32,7 +33,7 @@ nav {
 	font-size: 42px;
 	margin-left: 20%;
 	padding-right: 50px;
-	color:darkolivegreen;
+	color:lightgreen;
 	transition: opacity 500ms top 1s ease;
 	opacity: 1;
 	
@@ -58,20 +59,19 @@ nav {
 
 button {
 	width: 95px;
+	min-height: 0;
 	border-radius: 10px;
     color: darkolivegreen;
     background-color: black;
-    transition: all 750ms ease-in-out;
-    -webkit-transition: all 750ms ease-in-out;
-
+    transition: all 750ms ease-in;
 }
 
-button:hover {	
-	height: 137px;
+button:hover{	
 	width: 95px;
+	height: 137px;
 	background: url(../images/navbar.jpg);
 	color: orangered;
-	transition: 500ms ease-in-out;
+	transition: all 750ms ease-out;
 }
 
 element.style {
@@ -90,6 +90,7 @@ element.style {
 	border: 2px solid black;
 	box-shadow: 3px 3px 1px #888888;
 	border-radius: 8px;
+	-webkit-filter: sepia(100%);
 }
 
 .jobTitle {	
