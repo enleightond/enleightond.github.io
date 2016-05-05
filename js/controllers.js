@@ -21,7 +21,7 @@ app.controller("ProjectCtrl", function($scope, $location){
 	},
 	{
 		projectName:"Event Finder",
-		projectImg: "http://placekitten.com/300/400",
-		projectLink: "https://github.com/milesflo/event-finder"
+		projectImg: "../images/epicEventsPic.png",
+		projectLink: "https://github.com/enleightond/event-finder"
 	}
 ]})
