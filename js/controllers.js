@@ -11,12 +11,12 @@ app.controller("ProjectCtrl", function($scope, $location){
 	},
 	{
 		projectName:"twitchMe",
-		projectImg: "http://placekitten.com/300/400",
+		projectImg: "../images/twitchMePic.png",
 		projectLink: "https://github.com/enleightond/AngularTwitch"
 	},
 	{
 		projectName:"Mean Tea",
-		projectImg: "http://placekitten.com/300/400",
+		projectImg: "../images/myMeanTeaPic.png",
 		projectLink: "https://github.com/enleightond/myMeanTea"
 	},
 	{
