@@ -1,7 +1,6 @@
 html {	
 	margin: 10px;
 	font-family: arial;
-	/*height: 666px;*/
 	width: 100%;
 	background-repeat: no-repeat;
 }
@@ -43,22 +42,22 @@ nav {
 }
 
 .links{
-	margin-right: 20%;
+	margin-right: 2%;
 }
 
 #menuBar li {
 	display: inline;
 	float: left;
 	height: 137px;
-	width: 95px;
+	width: 7%;
 	list-style: none;
 	transition: 500ms ease-in-out;
-	-webkit-transition: 500ms ease-in-out;	
+	-webkit-transition: 500ms ease-in-out;
+	box-sizing: border-box;
 }
 
 button {
-	width: 95px;
-	min-height: 0;
+	width: 100%;
 	border-radius: 10px;
     color: darkolivegreen;
     background-color: black;
@@ -66,16 +65,11 @@ button {
 }
 
 button:hover{	
-	width: 95px;
+	width: 100%;
 	height: 137px;
 	background: url(../images/navbar.jpg);
 	color: orangered;
 	transition: all 500ms ease-out;
-}
-
-element.style {
-    width: 100%;
-    height: 137px;
 }
 
 .homeContainer{
@@ -89,15 +83,12 @@ element.style {
 	top: 0;
 	left: 10%;
 	height: 35%;
-	/*width: 100%;*/
 }
 
 .portrait {
 	float: left;
 	height: 436px; 
 	max-width: 100%;
-	/*margin: 70px;*/
-	/*margin-left: 10%;*/
 	margin-right: 35px;
 	margin-top:10px;
 	border: 2px solid black;
@@ -134,7 +125,6 @@ element.style {
 	margin-left: 30px;
 	margin-bottom: 0px;
 	font-size: 20px;
-	/*clear: right;*/
 }
 
 #socLinks{
