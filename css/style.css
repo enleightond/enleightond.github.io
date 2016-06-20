@@ -1,3 +1,19 @@
+
+/*for 980px and less*/
+/*@media screen and (max-width: 980px) {
+	nav {
+		width: 94%;
+	}
+	.name {
+		font-size:94%;
+	}
+	.portrait {
+		height: 94%;
+	}
+
+}*/
+
+
 html {	
 	margin: 10px;
 	font-family: arial;
