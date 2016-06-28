@@ -1,17 +1,33 @@
 
-/*for 980px and less*/
-/*@media screen and (max-width: 980px) {
+/*for 768px and less*/
+@media screen and (max-width: 768px) {
 	nav {
-		width: 94%;
+		width: 75%;
+		height: 75%;
 	}
 	.name {
-		font-size:94%;
+		font-size:75%;
 	}
 	.portrait {
-		height: 94%;
+		height: 75%;
+		max-width: 75%;
 	}
 
-}*/
+}
+
+/*for 480px and less*/
+@media screen and (max-width: 480px) {
+	nav {
+		width: 47%;
+	}
+	.name {
+		font-size:67%;
+	}
+	.portrait {
+		height: 47%;
+	}
+
+}
 
 
 html {	
@@ -21,20 +37,20 @@ html {
 	background-repeat: no-repeat;
 }
  
-body {
+/*body {
 	background: -moz-radial-gradient(center, ellipse cover, rgba(247,245,178,0) 0%, rgba(244,235,195,0.27) 27%, rgba(188,191,153,0.64) 64%, rgba(170,167,153,1) 100%);
 	background: -webkit-radial-gradient(center, ellipse cover, rgba(247,245,178,0) 0%,rgba(244,235,195,0.27) 27%,rgba(188,191,153,0.64) 64%,rgba(170,167,153,1) 100%);
 	background: radial-gradient(ellipse at center, rgba(247,245,178,0) 0%,rgba(244,235,195,0.27) 27%,rgba(188,191,153,0.64) 64%,rgba(170,167,153,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f7f5b2', endColorstr='#aaa799',GradientType=1 );
 	background-repeat: no-repeat;
-}
+}*/
 
 nav {
 	width: 99%;
-	background: url(../images/navbar.jpg);
+	background: black;
 	background-size: cover;
 	overflow: hidden;
-	height: 137px;
+	height: 10%;
 	border-radius: 8px;
 }
 
@@ -49,23 +65,23 @@ nav {
 	font-size: 42px;
 	margin-left: 20%;
 	padding-right: 50px;
-	color:lightgreen;	
+	color: white;	
 }
 
 .name:hover {
 	font-style: italic;
-	color: orangered;
+	color:rgb(47, 144, 241);
 }
 
 .links{
-	margin-right: 2%;
+	/*margin-right: 5px;*/
 }
 
 #menuBar li {
 	display: inline;
 	float: left;
-	height: 137px;
-	width: 7%;
+	/*height: 10%;*/
+	width: 12%;
 	list-style: none;
 	transition: 500ms ease-in-out;
 	-webkit-transition: 500ms ease-in-out;
@@ -73,25 +89,25 @@ nav {
 }
 
 button {
-	width: 100%;
-	border-radius: 10px;
-    color: darkolivegreen;
+	padding-top: 15%;
+	width: 95%;
+	border: none;
+    color: white;
     background-color: black;
     transition: all 500ms ease-in;
 }
 
 button:hover{	
-	width: 100%;
-	height: 137px;
-	background: url(../images/navbar.jpg);
-	color: orangered;
+	width: 95%;
+	border: none;
 	transition: all 500ms ease-out;
+	color:rgb(41, 119, 198);
 }
 
 .homeContainer{
 	position: relative;
 	height: 0;
-	padding-bottom: 50%;
+	/*padding-bottom: 50%;*/
 }
 
 .homeElement{
@@ -102,8 +118,8 @@ button:hover{
 }
 
 .portrait {
-	float: left;
-	height: 436px; 
+	float: right;
+	height: 327px; 
 	max-width: 100%;
 	margin-right: 35px;
 	margin-top:10px;
@@ -122,7 +138,7 @@ button:hover{
 
 .bio {
 	float: left;
-	width: 30%;
+	width: 75%;
 	font-size: 20px;
 }
 
@@ -137,10 +153,15 @@ button:hover{
 
 .socialBio {
 	float: left;
-	width: 25%;
-	margin-left: 30px;
+	width: 75%;
 	margin-bottom: 0px;
 	font-size: 20px;
+}
+
+.quote {
+	/*float: left;*/
+	text-align: center;
+	font-size: 18px;
 }
 
 #socLinks{
@@ -175,7 +196,8 @@ button:hover{
 }
 
 .projectImg {
-
+	height: 75%;
+	max-width: 75%;
 }
 
 
