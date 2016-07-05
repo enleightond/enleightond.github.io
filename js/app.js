@@ -4,10 +4,10 @@ app.config(function($routeProvider){
 	$routeProvider
 		.when('/', {
 			templateUrl:"./views/portfolio.html",
-			controller: "SiteCtrl"
+			controller: "ProjectCtrl"
 		}).when ('/about', {
 			templateUrl:"./views/about.html",
-			controller: "ProjectCtrl"
+			controller: "SiteCtrl"
 		}).when ('/resume', {
 			templateUrl:"./views/resume.html",
 			controller:"SiteCtrl"
