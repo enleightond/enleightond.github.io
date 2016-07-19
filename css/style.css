@@ -146,9 +146,9 @@ button:hover{
 	float: left;
     border: 1px solid #888888;
     height: 1px;
-	width: 75%;
+	width: 99%;
 	margin-top: 8px;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	/*box-shadow: 1px 1px 1px #888888;*/
 }
 
@@ -162,13 +162,13 @@ button:hover{
 .quote {
 	/*float: left;*/
 	/*text-align: center;*/
-	font-size: 18px;
+	font-size: 16px;
 }
 
 #socLinks{
 	list-style: none;
-	height: 235px;
-	padding-left: 8%;
+	/*height: 235px;*/
+	padding-left: 28%;
 	padding-right: 5%;
 	text-align: center;
 }
