@@ -24,4 +24,8 @@ app.controller("ProjectCtrl", function($scope, $location){
 		projectImg: "../images/portfolioPic.png",
 		projectLink: "https://github.com/enleightond/enleightond.github.io"
 	}
-]})
+]});
+
+app.controller("aboutCtrl", function($scope){
+	
+});

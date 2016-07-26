@@ -104,16 +104,9 @@ button:hover{
 	color:rgb(41, 119, 198);
 }
 
-.homeContainer{
-	position: relative;
-	height: 0;
-	/*padding-bottom: 50%;*/
-}
+
 
 .homeElement{
-	position: absolute;
-	top: 0;
-	left: 10%;
 	height: 35%;
 }
 
