@@ -27,10 +27,8 @@
 }
 
 html {	
-	margin: 10px;
+	margin: 1%;
 	font-family: arial;
-	width: 100%;
-	background-repeat: no-repeat;
 }
 
 nav {
@@ -41,9 +39,9 @@ nav {
 }
 
 #menuBar li {
-	display: inline;
+	display: inline-block;
 	float: left;
-	width: 12%;
+	width: 10%;
 	list-style: none;
 	transition: 500ms ease-in-out;
 	-webkit-transition: 500ms ease-in-out;
@@ -54,13 +52,14 @@ nav {
 	float: left;
 	font-size: 42px;
 	color: white;
-	margin-left: 1%;
-	width: 60%;
+	margin-left: 3%;
+	width: 66%;
 }
 
 .name:hover {
 	font-style: italic;
 	color:rgb(47, 144, 241);
+	transition: all 500ms ease-out;
 }
 
 .sitelinks {
@@ -70,7 +69,6 @@ nav {
 }
 
 button {
-	padding-top: 15%;
 	width: 95%;
 	border: none;
     color: white;
@@ -81,6 +79,7 @@ button {
 button:hover{	
 	width: 95%;
 	border: none;
+	font-style: italic;
 	transition: all 500ms ease-out;
 	color:rgb(41, 119, 198);
 }
@@ -102,15 +101,15 @@ button:hover{
 }
 .portrait {
 	float: right;
-	margin-right: 5%;
-	height: 327px; 
-	/*max-width: 100%;*/
-	margin-right: 35px;
-	margin-top: 10px;
-	border: 2px solid black;
-	box-shadow: 3px 3px 1px #888888;
-	border-radius: 8px;
-	-webkit-filter: sepia(100%);
+    /* margin-right: 5%; */
+    /* height: 327px; */
+    /* max-width: 100%; */
+    margin-right: 3%;
+    /* margin-top: 10px; */
+    border: 2px solid black;
+    box-shadow: 3px 3px 1px #888888;
+    border-radius: 8px;
+    -webkit-filter: sepia(100%);
 }
 
 .quote {
@@ -170,6 +169,10 @@ button:hover{
 .projectImg {
 	height: 75%;
 	width: 75%;
+}
+
+.copyright {
+	text-align: center;
 }
 
 

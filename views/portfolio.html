@@ -2,14 +2,12 @@
 <br>
 <div class="projectLayout" ng-repeat="project in projects"> 
 	<div>
-		<!-- <figure> -->  
-			<a href="{{project.projectLink}}">
-				<img class="projectImg" ng-src="{{project.projectImg}}"/>
-				<figcaption>
-					<h5 style="color: black;">{{project.projectName}}</h5>
-					<p style="font-size: 16px; color: black;">{{project.desc}}</p>				
-				</figcaption>
-			</a>
-		<!-- </figure> -->
+		<a href="{{project.projectLink}}">
+			<img class="projectImg" ng-src="{{project.projectImg}}"/>
+			<figcaption>
+				<h5 style="color: black;">{{project.projectName}}</h5>
+				<p style="font-size: 16px; color: black;">{{project.desc}}</p>				
+			</figcaption>
+		</a>
 	</div>
 </div>
