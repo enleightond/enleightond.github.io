@@ -50,12 +50,20 @@ nav {
  .name a {
 	color: white;
 	text-decoration: none;
+	transition: 500ms ease-in-out;
  }
 
 .name a:hover {
+	transition: all 500ms ease-in-out;
 	font-style: italic;
 	color:rgb(47, 144, 241);
-	transition: all 500ms ease-out;
+}
+
+.name a:focus {
+	font-size: 103%;
+	font-style: italic;
+	text-decoration: underline;
+	color:rgb(47, 144, 241);
 }
 
 .sitelinks {
