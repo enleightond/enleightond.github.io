@@ -7,7 +7,7 @@ app.config(function($routeProvider){
 			controller: "ProjectCtrl"
 		}).when ('/about', {
 			templateUrl:"./views/about.html",
-			controller: "aboutCtrl"
+			controller: "SiteCtrl"
 		}).when ('/resume', {
 			templateUrl:"./views/resume.html",
 			controller:"SiteCtrl"

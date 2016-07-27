@@ -90,18 +90,21 @@ button:hover{
 	font-size: 24px;
 	font-style: italic;
 	text-shadow: 5px 2px 1px #888;
+	text-align: center; 
+	color: black;
 }
 
 .bio {
 	float: left;
-	width: 75%;
 	font-size: 20px;
-	width: 66%;
+	width: 70%;
+	margin-left: 3%;
 }
 .portrait {
 	float: right;
+	margin-right: 5%;
 	height: 327px; 
-	max-width: 100%;
+	/*max-width: 100%;*/
 	margin-right: 35px;
 	margin-top: 10px;
 	border: 2px solid black;
@@ -113,6 +116,7 @@ button:hover{
 .quote {
 	font-size: 16px;
 	width: 100%;
+	text-align: center;
 }
 .hLine {
 	float: left;
@@ -122,11 +126,9 @@ button:hover{
 	margin-top: 8px;
 }
 
-#socLinks{
-	/*width: 100%;*/
+#socLinks{	
 	list-style: none;
 	margin-left: 30%;
-	/*margin-right: 30%;*/
 	text-align: center;
 }
 

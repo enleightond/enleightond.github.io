@@ -1,4 +1,4 @@
-app.controller("SiteCtrl", function($scope, $location){
+app.controller("SiteCtrl", function($scope){
 
 });
 
@@ -26,6 +26,6 @@ app.controller("ProjectCtrl", function($scope, $location){
 	}
 ]});
 
-app.controller("aboutCtrl", function($scope){
-	
-});
+// app.controller("aboutCtrl", function($scope){
+
+// });
