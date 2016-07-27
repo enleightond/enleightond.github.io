@@ -39,19 +39,12 @@ html {
 nav {
 	width: 99%;
 	background: black;
-	/*background-size: cover;*/
 	overflow: hidden;
-	/*height: 10%;*/
 	border-radius: 8px;
 }
 
-/*#menuBar {	
-	list-style: none;
-	margin: 0px;	
-}*/
-
 .links {
-	/*float: right;*/
+
 }
 
 .link a {
@@ -82,7 +75,6 @@ nav {
 }
 
 button {
-	/*float: right;*/
 	padding-top: 15%;
 	width: 95%;
 	border: none;
@@ -96,10 +88,6 @@ button:hover{
 	border: none;
 	transition: all 500ms ease-out;
 	color:rgb(41, 119, 198);
-}
-
-.homeElement{
-	/*height: 35%;*/
 }
 
 .jobTitle {	
