@@ -38,7 +38,7 @@ nav {
 	border-radius: 8px;
 }
 
-#menuBar li {
+#menuBar {
 	display: inline-block;
 	float: left;
 	width: 10%;
@@ -49,11 +49,15 @@ nav {
 }
 
 .name {
+	display: block;
 	float: left;
 	font-size: 42px;
 	color: white;
 	margin-left: 3%;
-	width: 66%;
+	list-style: none;
+	transition: 500ms ease-in-out;
+	-webkit-transition: 500ms ease-in-out;
+	width: 33%;
 }
 
 .name:hover {
@@ -63,9 +67,20 @@ nav {
 }
 
 .sitelinks {
+	float: right;
+	width: 50%;
+	list-style: none;
+	transition: 500ms ease-in-out;
+	-webkit-transition: 500ms ease-in-out;
+	box-sizing: border-box;
 }
 
-.sitelink a {	
+.sitelink li {	
+	float: left;
+	display: inline-block;
+	margin-right: 10%;
+	width: 10%;
+	
 }
 
 button {
@@ -73,14 +88,21 @@ button {
 	border: none;
     color: white;
     background-color: black;
+    outline-style: none;
     transition: all 500ms ease-in;
 }
 
-button:hover{	
+button:hover {	
 	width: 95%;
 	border: none;
 	font-style: italic;
 	transition: all 500ms ease-out;
+	color:rgb(41, 119, 198);
+}
+
+button:focus {
+	font-style: italic;
+	font-size: 20px;
 	color:rgb(41, 119, 198);
 }
 
@@ -101,11 +123,7 @@ button:hover{
 }
 .portrait {
 	float: right;
-    /* margin-right: 5%; */
-    /* height: 327px; */
-    /* max-width: 100%; */
     margin-right: 3%;
-    /* margin-top: 10px; */
     border: 2px solid black;
     box-shadow: 3px 3px 1px #888888;
     border-radius: 8px;
