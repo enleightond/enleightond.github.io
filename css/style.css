@@ -42,21 +42,24 @@ nav {
 	display: block;
 	float: left;
 	font-size: 42px;
-	color: white;
 	margin-left: 3%;
-	list-style: none;
 	transition: 500ms ease-in-out;
 	-webkit-transition: 500ms ease-in-out;
 	width: 33%;
 }
+ .name a {
+	color: white;
+	text-decoration: none;
+ }
 
-.name:hover {
+.name a:hover {
 	font-style: italic;
 	color:rgb(47, 144, 241);
 	transition: all 500ms ease-out;
 }
 
 .sitelinks {
+	padding-top: 1%;
 	float: right;
 	width: 30%;
 	list-style: none;
