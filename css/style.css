@@ -1,6 +1,5 @@
-
 /*for 768px and less*/
-@media screen and (max-width: 768px) {
+/*@media screen and (max-width: 768px) {
 	nav {
 		width: 75%;
 		height: 75%;
@@ -12,8 +11,7 @@
 		height: 75%;
 		max-width: 75%;
 	}
-
-}
+}*/
 
 /*for 480px and less*/
 @media screen and (max-width: 480px) {
@@ -26,7 +24,6 @@
 	.portrait {
 		height: 47%;
 	}
-
 }
 
 html {	
@@ -43,11 +40,11 @@ nav {
 	border-radius: 8px;
 }
 
-.links {
+.sitelinks {
 
 }
 
-.link a {
+.sitelink a {
 	
 }
 
@@ -97,6 +94,12 @@ button:hover{
 	text-shadow: 5px 2px 1px #888;
 }
 
+.bio {
+	float: left;
+	width: 75%;
+	font-size: 20px;
+	width: 66%;
+}
 .portrait {
 	float: right;
 	height: 327px; 
@@ -110,13 +113,11 @@ button:hover{
 }
 
 
-.bio {
-	float: left;
-	width: 75%;
-	font-size: 20px;
-	width: 66%;
-}
 
+.quote {
+	font-size: 16px;
+	width: 100%;
+}
 .hLine {
 	float: left;
     border: 1px solid #888888;
@@ -125,10 +126,6 @@ button:hover{
 	margin-top: 8px;
 }
 
-.quote {
-	font-size: 16px;
-	width: 100%;
-}
 
 #socLinks{
 	width: 100%;
