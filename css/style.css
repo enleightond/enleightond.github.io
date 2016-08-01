@@ -179,7 +179,6 @@ button:focus {
 
 .projectLayout {
 	display: inline-block;
-	text-align: center;
 	box-shadow: 3px 3px 2px #888888;
 	margin: 1%;
 	background-color: #4ea1f4; 

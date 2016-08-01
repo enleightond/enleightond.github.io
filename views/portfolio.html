@@ -1,8 +1,8 @@
-<h2 style="text-align: center; color: black;"></h2>
+<h2 style="text-align: center;"></h2>
 <br>
 <div class="projectLayout" ng-repeat="project in projects"> 
 	<div>
-		<a href="{{project.projectLink}}">
+		<a style="text-decoration: none;" href="{{project.projectLink}}">
 			<img class="projectImg" ng-src="{{project.projectImg}}"/>
 			<figcaption>
 				<h2 style="color: white;">{{project.projectName}}</h2>
@@ -11,3 +11,4 @@
 		</a> 
 	</div>
 </div>
+ 
