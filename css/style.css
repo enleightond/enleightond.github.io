@@ -100,7 +100,7 @@ nav {
 
 .sitelinks a:focus {
 	font-style: italic;
-	/*font-size: 110%;*/
+	font-size: 110%;
 	text-decoration: underline;
 	color:#99ff99;
 	text-shadow: green 0.1em 0.1em 0.1em;
