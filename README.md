@@ -3,7 +3,7 @@ Portfolio site
 
 Projects created at Galvanize using the PEAN technology stack. 
 
-##1 In the personal portfolio project I used CommonJS, HTML, and CSS to build a responsive, mobile first site. 
+##1 In the personal portfolio project I used JavaScript, HTML, and CSS to build a responsive, mobile first site. 
 By intentionally avoiding built in frameworks (i.e. Bootstrap, React, etc) I challenged myself into untilizing the fundamentals of web building to create the responsiveness and dynamic portfolio site to accomidate any size device. 
 
 Using angularJS allows for the flexibility to add more content without changing the overall feel of the sight, and still gives focus to creating the mobile first experience.   
